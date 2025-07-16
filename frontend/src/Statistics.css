@@ -1,4 +1,4 @@
-/* Shared input + button styling */
+
 .shortener-container input,
 .shortener-container button {
   padding: 10px;
@@ -19,7 +19,6 @@
   background-color: #45a049;
 }
 
-/* Result Section */
 .result {
   margin-top: 30px;
   padding: 20px;
@@ -28,7 +27,6 @@
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-/* Stats table */
 .result table {
   width: 100%;
   margin-top: 15px;

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import './Shortener.css'; // reuse same styling
+import './Shortener.css'; 
 
 function Statistics() {
   const [shortId, setShortId] = useState('');

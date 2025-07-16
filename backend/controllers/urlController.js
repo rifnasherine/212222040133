@@ -1,12 +1,7 @@
 import { nanoid } from 'nanoid';
 import { logError } from '../services/logService.js';
-
-// 🔹 In-memory store of all URLs
 const urlMap = {};
-
-// 🔸 Utility: mock location resolver
 const getLocationFromIP = (ip) => {
-  // Use real IP-to-location service like ipinfo.io later
   return "India (mocked)";
 };
 

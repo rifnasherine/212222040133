@@ -27,7 +27,7 @@ function Shortener() {
 
     try {
       const res = await axios.post('http://localhost:5000/shorten', {
-        urls: urls.filter(u => u.originalUrl) // only send non-empty
+        urls: urls.filter(u => u.originalUrl) 
       });
       setResults(res.data.results);
     } catch (err) {

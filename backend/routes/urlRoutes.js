@@ -9,6 +9,6 @@ const router = express.Router();
 
 router.post('/shorten', shortenUrl);
 router.get('/:shortId', redirectToOriginal);
-router.get('/stats/:shortId', getUrlStats); // 📊 NEW ROUTE
+router.get('/stats/:shortId', getUrlStats); 
 
 export default router;
