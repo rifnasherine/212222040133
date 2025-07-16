@@ -1,0 +1,63 @@
+/* Shared input + button styling */
+.shortener-container input,
+.shortener-container button {
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.shortener-container button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.shortener-container button:hover {
+  background-color: #45a049;
+}
+
+/* Result Section */
+.result {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #f3f3f3;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Stats table */
+.result table {
+  width: 100%;
+  margin-top: 15px;
+  border-collapse: collapse;
+}
+
+.result table th,
+.result table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.result table th {
+  background-color: #e0e0e0;
+}
+
+.result a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.result a:hover {
+  text-decoration: underline;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+  font-weight: bold;
+}
